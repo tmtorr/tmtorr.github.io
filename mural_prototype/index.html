@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <hr>
+    <hr>
+
+
+    <h1>Canadian Cultural Complexity</h1>
+    <h4 id="mapleLeaf">
+        <img src="images/leaf.jpg" alt="North America" >
+    </h4>
+
+    <div class="button-container">
+        <button id="northAmericaButton" class="continent-btn" style="background-image: url('images/north-america.jpg');"></button>
+        <button id="southAmericaButton" class="continent-btn" style="background-image: url('images/south-america.jpg');"></button>
+        <button id="europeButton" class="continent-btn" style="background-image: url('images/europe.jpg');"></button>
+        <button id="asiaButton" class="continent-btn" style="background-image: url('images/asia.jpg');"></button>
+        <button id="africaButton" class="continent-btn" style="background-image: url('images/africa.jpg');"></button>
+        <button id="oceaniaButton" class="continent-btn" style="background-image: url('images/oceania.jpg');"></button>
+        <button id="antarcticaButton" class="continent-btn" style="background-image: url('images/antarctica.jpg');"></button>
+    </div>
+
+
+    <style>
+         /* Inline CSS, change later*/
+
+        img {
+            width: 40%;
+            height: auto; 
+        }
+
+        .continent-btn {
+            width: 120px;
+            height: 80px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: black;
+            border: none;
+            margin: 8px;
+            cursor: pointer;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            transition: box-shadow 0.2s;
+        }
+        .continent-btn:focus, .continent-btn:hover {
+            outline: 2px solid #2071B2;
+            box-shadow: 0 4px 16px rgba(32,113,178,0.22);
+        }
+        
+        .button-container {
+            display: flex;               /* Enable flexbox layout */
+            justify-content: center;     /* Center buttons horizontally */
+            gap: 10px;                   /* Space between buttons */
+            flex-wrap: wrap;             /* Wrap buttons to next line if needed */
+            padding: 20px;
+        }
+        </style>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
