@@ -22,6 +22,11 @@ h2{
     font-size: large;
 }
 
+p{
+    color: #ffffff;
+}
+
+
 
 a{
     text-decoration: none; /*removes the underline & color*/

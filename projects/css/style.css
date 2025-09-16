@@ -4,6 +4,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
 /* imports 'Monsieur La Doulaise' (Code/Hackerman) font */
 
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+/* imports 'Tektur' (Code/Hackerman) font */
+
+
+
+
 h1, h3, h4, h5{
     font-family: 'Aboreto', cursive;
     color: #a59756;
@@ -18,6 +24,11 @@ h2{
     font-size: large;
 }
 
+
+p{
+    font-family: 'Tektur', cursive;
+    color: #949494;
+}
 
 a{
     text-decoration: none; /*removes the underline & color*/
