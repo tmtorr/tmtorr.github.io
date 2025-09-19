@@ -81,6 +81,7 @@ footer{
     justify-content: center;
     align-items: center;
     text-align:center;
+    font-size: clamp( 5px, 3vw, 20px);
 }
 
 .header {
@@ -98,6 +99,12 @@ footer{
     height: 400px;
     justify-content: center;
     align-items: center;
+}
+
+img {
+  width: clamp(100px, 60%, 300px);
+  height: clamp(75px, 60%, 200px);
+  object-fit: contain;
 }
 
 .item {

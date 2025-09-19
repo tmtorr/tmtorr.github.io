@@ -40,6 +40,12 @@ a:visited{
     color: #99a556; /*green gold*/
 }
 
+img {
+  width: clamp(200px, 80%, 600px);
+  height: clamp(150px, 80%, 400px);
+  object-fit: contain;
+}
+
 body{
     font-family: 'Aboreto', cursive;
     background-color: #000000;
