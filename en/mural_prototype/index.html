@@ -4,39 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Canadian Cultural Complexity</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Canadian Complexity</title>
 </head>
 
 <body>
-
-    <hr>
-    <hr>
-
-
-    <h1>Canadian Cultural Complexity</h1>
-    <h4 id="mapleLeaf">
-        <img src="images/leaf.jpg" alt="North America" >
+    <h4>
+        <svg id="mapleLeaf" width="950" height="550" viewBox="-4030 -2000 8030 4030" >
+	        <path fill="#f00" d="m-90 2030 45-863a95 95 0 0 0-111-98l-859 151 116-320a65 65 0 0 0-20-73l-941-762 212-99a65 65 0 0 0 34-79l-186-572 542 115a65 65 0 0 0 73-38l105-247 423 454a65 65 0 0 0 111-57l-204-1052 327 189a65 65 0 0 0 91-27l332-652 332 652a65 65 0 0 0 91 27l327-189-204 1052a65 65 0 0 0 111 57l423-454 105 247a65 65 0 0 0 73 38l542-115-186 572a65 65 0 0 0 34 79l212 99-941 762a65 65 0 0 0-20 73l116 320-859-151a95 95 0 0 0-111 98l45 863z"/>
+        </svg>
     </h4>
-
-    <div class="button-container">
-        <button id="northAmericaButton" class="continent-btn" style="background-image: url('images/north-america.jpg');"></button>
-        <button id="southAmericaButton" class="continent-btn" style="background-image: url('images/south-america.jpg');"></button>
-        <button id="europeButton" class="continent-btn" style="background-image: url('images/europe.jpg');"></button>
-        <button id="asiaButton" class="continent-btn" style="background-image: url('images/asia.jpg');"></button>
-        <button id="africaButton" class="continent-btn" style="background-image: url('images/africa.jpg');"></button>
-        <button id="oceaniaButton" class="continent-btn" style="background-image: url('images/oceania.jpg');"></button>
-        <button id="antarcticaButton" class="continent-btn" style="background-image: url('images/antarctica.jpg');"></button>
-    </div>
-
-    <div>
-        <h3>Please select a continent above</h3>
-    </div>
-
 
 
     <style>
          /* Inline CSS, change later*/
+
+        h4 svg{
+            width: 100%;
+            height: auto;
+            display: block;
+        }
 
         img {
             width: 40%;
@@ -69,9 +56,12 @@
             flex-wrap: wrap;             /* Wrap buttons to next line if needed */
             padding: 20px;
         }
-        </style>
 
+    </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/3.2.0/svg.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="script.js"></script>
 
 </body>
