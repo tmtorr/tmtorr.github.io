@@ -51,6 +51,25 @@ body{
     background-color: #ffffff;
 }
 
+/*so it auto adjusts*/
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#svgContainer {
+  width: 100%;
+  height: 100%;
+}
+
+#mySvg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+/*for auto adjustment*/
+
 footer{
     font-family: 'Monsieur La Doulaise', cursive;
     color: #a59756;
