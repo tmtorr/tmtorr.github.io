@@ -536,8 +536,8 @@ $(document).ready(() => {
                         .append("svg")
                         .attr("id", "mapleLeaf")
                         .attr("width", 950)
-                        .attr("height", 500)
-                        .attr("viewBox", "-4030 -2000 8030 4030");     
+                        .attr("height", 1550)
+                        .attr("viewBox", "-3030 -1500 7030 3030");     
     }
 
     });
